@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BroadcastBestPractice</string>
+    <string name="account">Account:</string>
+    <string name="password">PassWord:</string>
+    <string name="login">Login</string>
+    <string name="offline">offline</string>
+</resources>
