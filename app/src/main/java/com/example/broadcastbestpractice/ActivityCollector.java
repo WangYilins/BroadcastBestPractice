@@ -20,7 +20,7 @@ public class ActivityCollector {
     public static void finishAll() {
         for (Activity activity : activityList) {
             if (!activity.isFinishing()) {
-                activityList.remove(activity);
+                activity.finish();
             }
         }
         activityList.clear();
